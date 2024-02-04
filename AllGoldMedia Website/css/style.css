@@ -29,7 +29,7 @@ body {
 .IndexCenterPage {
     padding: 30px;
 
-    flex: 1;
+    flex-direction: column;
     
     display: flex;
 
@@ -42,6 +42,8 @@ body {
 
 .IndexBottomNav {
     flex: 1;
+
+    justify-content: space-between;
     
     display: flex;
     
