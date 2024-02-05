@@ -3,14 +3,24 @@ body {
 
     padding: 0;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%, rgba(27, 27, 27, 0) 100%);
+    background: linear-gradient(180deg, #000000, #1F1F1F) no-repeat;
+  
+    color: #DBB536;
 }
 
 .wrapper {
+    padding: 15px;
+
     max-width: 1260px;
 
     width: 100%;
 }
+
+a {
+    color: #DBB536;
+
+    text-decoration: none;
+  }
 
 .IndexHeader {
     padding: 30px;
@@ -27,7 +37,7 @@ body {
 }
 
 .IndexCenterPage {
-    padding: 30px;
+    padding: 40px;
 
     flex-direction: column;
     
@@ -40,7 +50,17 @@ body {
     text-align: center;
 }
 
+.CenterBottomText {
+    font-family: monospace;
+
+    color:#E8E8E8;
+
+    letter-spacing: 3px;
+  }
+
 .IndexBottomNav {
+    padding-top: 50px;
+
     flex: 1;
 
     justify-content: space-between;
